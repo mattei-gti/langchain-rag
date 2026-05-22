@@ -1,0 +1,22 @@
+{
+  "name": "langchain-rag",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/classic": "^1.0.34",
+    "@langchain/core": "^1.1.48",
+    "@langchain/openai": "^1.4.7",
+    "@langchain/textsplitters": "^1.0.1",
+    "dotenv": "^17.4.2",
+    "langchain": "^1.4.2",
+    "pdf-parse": "^1.1.1"
+  }
+}
