@@ -1,0 +1,34 @@
+{
+  "name": "langchain-rag",
+  "version": "1.0.0",
+  "description": "Projeto de estudo e implementação de um sistema RAG (Retrieval-Augmented Generation) utilizando Node.js, LangChain e OpenAI, com capacidade de ler documentos PDF, gerar embeddings vetoriais e responder perguntas contextualizadas diretamente no terminal.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node --test",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattei-gti/langchain-rag.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/mattei-gti/langchain-rag/issues"
+  },
+  "homepage": "https://github.com/mattei-gti/langchain-rag#readme",
+  "dependencies": {
+    "@langchain/classic": "^1.0.34",
+    "@langchain/openai": "^1.4.7",
+    "@langchain/textsplitters": "^1.0.1",
+    "dotenv": "^17.4.2",
+    "langchain": "^1.4.2",
+    "openai": "^6.39.0",
+    "pdf-parse": "^2.4.5"
+  },
+  "overrides": {
+    "uuid": "11.1.1"
+  }
+}
